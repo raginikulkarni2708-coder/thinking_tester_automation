@@ -99,7 +99,7 @@ By contactPageTable= By.xpath("//table[@id='myTable']");
         driver.findElement(contactPageSubmitButton).click();
     }
 
-    git init
+
 
     public boolean isContactPresent(String expectedName, String expectedEmail){
         wait.until(ExpectedConditions.visibilityOfElementLocated(contactPageTable));
